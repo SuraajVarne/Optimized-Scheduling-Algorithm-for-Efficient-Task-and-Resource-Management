@@ -28,5 +28,16 @@ This project features a C++ implementation of an advanced scheduling algorithm d
 1. **Clone the Repository**:
    ```sh
    git clone https://github.com/username/repository-name.git
+   Navigate to the Project Directory:
+   cd repository-name
+   mkdir build
+cd build
+cmake ..
+make
+./scheduling_algorithm
+
+
+
+
 
    
