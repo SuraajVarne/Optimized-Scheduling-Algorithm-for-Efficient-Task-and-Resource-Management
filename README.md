@@ -1,43 +1,25 @@
 # Advanced Scheduling Algorithm for Task Management
 
 ## Overview
-
-This project features a C++ implementation of an advanced scheduling algorithm designed to optimize task management across multiple machines. The algorithm integrates topological sorting, dynamic programming, and comprehensive data analysis to enhance task allocation efficiency and minimize overall scheduling time.
+This project provides a C++ implementation of an advanced scheduling algorithm aimed at optimizing task management across multiple machines. The algorithm leverages **topological sorting**, **dynamic programming**, and **data analysis** to efficiently allocate tasks, minimizing overall scheduling time.
 
 ## Features
-
-- **Topological Sorting**: Ensures tasks are scheduled according to their dependencies.
-- **Dynamic Programming**: Minimizes execution time by evaluating optimal task assignments across available machines.
-- **Data Analysis**: Generates detailed CSV and DAG charts for over 50 parameter combinations, enabling forecasting and strategic resource allocation.
+- **Topological Sorting**: Ensures that tasks are scheduled in the correct order, respecting their dependencies.
+- **Dynamic Programming**: Evaluates and assigns tasks to machines to minimize overall execution time.
+- **Data Analysis**: Generates comprehensive CSV files and DAG (Directed Acyclic Graph) charts for over 50 parameter combinations, aiding in forecasting and strategic resource allocation.
 
 ## Key Achievements
-
-- **20% Reduction in Scheduling Time**: Engineered a scheduling algorithm that optimized task allocation for up to 16 tasks across 5 machines, resulting in a significant reduction in scheduling time.
-- **30% Improvement in Algorithm Accuracy**: Conducted trend analysis on scheduling dependencies, which enhanced the accuracy of the scheduling algorithm.
-- **25% Increase in Resource Allocation Efficiency**: Generated and analyzed detailed data, including CSV and DAG charts, leading to more effective resource allocation and forecasting.
+- **20% Reduction in Scheduling Time**: Developed an algorithm capable of optimizing the allocation of up to 16 tasks across 5 machines, significantly decreasing the scheduling time.
+- **30% Improvement in Algorithm Accuracy**: Through trend analysis on task dependencies, the algorithm's accuracy was enhanced.
+- **25% Increase in Resource Allocation Efficiency**: Detailed analysis using CSV and DAG charts enabled more efficient resource distribution and better forecasting of resource needs.
 
 ## Project Setup
 
 ### Prerequisites
-
-- **C++ Compiler**: Ensure you have a C++ compiler installed (e.g., GCC, Clang).
-- **CMake**: Required for building the project.
+- **C++ Compiler**: Ensure that you have a working C++ compiler such as GCC or Clang installed.
+- **CMake**: CMake is required to configure and build the project.
 
 ### Installation
-
 1. **Clone the Repository**:
-   ```sh
+   ```bash
    git clone https://github.com/username/repository-name.git
-   Navigate to the Project Directory:
-   cd repository-name
-   mkdir build
-cd build
-cmake ..
-make
-./scheduling_algorithm
-
-
-
-
-
-   
